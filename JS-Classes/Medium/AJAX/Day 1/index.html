@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta charset="utf-8">
+    <title>Shopping List</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+</head>
+
+<body>
+    <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <div class="container">
+        <div class="row" style="position: fixed; background-color: lightgray;">
+            <!--part2 Go to CSS skeeton .navlinks{
+  cursor: pointer;
+} -->
+            <a class="navlinks" id="userlink">Users</a> |
+            <a class="navlinks" id="commentslink">Comments</a> |
+            <!--DAY2-->
+            <a class="navlinks" id="adduserlink">Add User</a> |
+            <a class="navlinks" id="addcommentlink">Add Comment</a>
+            <!--DAY2 end-->
+            <!--part1 <p>
+        <button id="sendajaxrequest">AJAX Request</button>
+
+        </p>-->
+        </div>
+        <div id="main" class="row">
+        </div>
+        <!--DAY2-->
+        <div id="adduser" class="row" style="display: none;">
+            <p>Name</p>
+            <input type="text" id="name" placeholder="Your Name">
+            <p>UserName</p>
+            <input type="text" id="username" placeholder="Your Username">
+            <p>Email</p>
+            <input type="text" id="email" placeholder="Your email">
+            <button id="adduserbutton">Add User</button>
+        </div>
+        <div id="addcomment" class="row" style="display: none;">
+            <p>UserName</p>
+            <input type="text" id="namecomm" placeholder="Your Username">
+            <p>Email</p>
+            <input type="text" id="emailcomm" placeholder="Your email">
+            <p>Comment</p>
+            <input type="text" id="comment" placeholder="Your Comment">
+            <button id="addcommentbutton">Add Comment</button>
+        </div>
+        <!--DAY2 end-->
+        <!--TASK-->
+    </div>
+    <!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <script type="text/javascript" src="main.js"></script>
+</body>
+
+</html>
